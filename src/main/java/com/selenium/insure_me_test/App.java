@@ -25,7 +25,7 @@ public class App
     {
       //System.setProperty("webdriver.chrome.driver", "/Users/shubham/Documents/Softwares/chrome-driver/chromedriver");
     
-      System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
+      System.setProperty("webdriver.chrome.driver", "/usr/lib/chromium-browser");
         
         
         ChromeOptions chromeOptions = new ChromeOptions();
