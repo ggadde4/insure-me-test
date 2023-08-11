@@ -37,7 +37,7 @@ public class App
         
         //driver.get("http://localhost:8084/contact.html");
        
-        driver.get("http://3.144.168.66:8081/contact.html");
+        driver.get("http://3.19.77.13:8081/contact.html");
         driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
         
         driver.findElement(By.id("inputName")).sendKeys("giri");
