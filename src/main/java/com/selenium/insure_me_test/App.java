@@ -40,10 +40,10 @@ public class App
         driver.get("http://3.144.168.66:8081/contact.html");
         driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
         
-        driver.findElement(By.id("inputName")).sendKeys("Shubham Singh Kushwah");
-        driver.findElement(By.id("inputNumber")).sendKeys("9999999999");
-        driver.findElement(By.id("inputMail")).sendKeys("shubham@gmail.com");
-        driver.findElement(By.id("inputMessage")).sendKeys("Welcome to the DevOps");
+        driver.findElement(By.id("inputName")).sendKeys("giri");
+        driver.findElement(By.id("inputNumber")).sendKeys("987654321");
+        driver.findElement(By.id("inputMail")).sendKeys("giri@gmail.com");
+        driver.findElement(By.id("inputMessage")).sendKeys("Welcome to the DevOps 2023");
         
         driver.findElement(By.id("my-button")).click();
         
